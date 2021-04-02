@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+	#abc{
+		font-size: 26px;
+		text-align: center;
+	}
+</style>
+<body>
+	<script>
+function affect()
+		{
+			var x = document.getElementById("abc");
+			x.style.backgroundColor = "red";
+}
+		function reverseaffect()
+		{
+			var x = document.getElementById("abc");
+			x.style.backgroundColor = "blue";
+		}
+	</script>
+	<p id = "abc" onmouseover = "affect()" onmouseout = "reverseaffect()" > paragraph</p>
+</body>
+</html>
